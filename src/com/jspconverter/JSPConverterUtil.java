@@ -47,6 +47,7 @@ public class JSPConverterUtil
 			PsiJavaFile psiJavaFile = (PsiJavaFile) psiFile;
 			StringBuilder sb = new StringBuilder();
 
+			sb.append("<%@ page contentType=\"text/html; charset=UTF-8\" %>");
 			sb.append(COMMENT_PREFIX + " Imports " + COMMENT_SUFFIX);
 			sb.append(NEWLINE_PREFIX + NEWLINE_STR);
 
